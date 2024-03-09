@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2023/08/laptop-keyboard-backlight-dark-4k_1692181426.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#rows{
+    display: flex;
+    text-align: center;
+    padding-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#cols{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 15%;
+    margin-right: 45%;
+    border-radius: 5%;
+}
+
+td {
+    border: none;
+}
+
+.inner-div {
+    height: 50%;
+    width: 50%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.bg-div {
+    width: 100vw;
+    height: 100vh;
+}
